@@ -56,13 +56,12 @@ function App() {
             key={connector.uid}
             onClick={() => connect({ connector })}
             type="button"
-            class="btn-1"
+            className="btn-1"
           >
             {connector.name}
           </button>
         ))}
         <div className="powered">Powered by Coinbase Smart Wallet</div>
-        <div>{error?.message}</div>
       </div>
 
       {account.address && (
