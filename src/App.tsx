@@ -67,7 +67,6 @@ function App() {
       {account.address && (
         <div className="center">
           <Swap
-            address={account.address!}
             experimental={{ useAggregator: false }}
           >
             <SwapAmountInput
