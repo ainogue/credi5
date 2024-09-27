@@ -1,8 +1,0 @@
-https://buy.whitemonsterbase.com/*
-  X-Robots-Tag: noindex, nosnippet
-  Cross-Origin-Opener-Policy: unsafe-none
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  Referrer-Policy: no-referrer
-  Permissions-Policy: document-domain=()
-  Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
