@@ -1,7 +1,7 @@
 import './global.css';
 import '@coinbase/onchainkit/styles.css';
 
-import { useAccount, useConnect, useDisconnect } from 'wagmi';
+import { useAccount, useConnect } from 'wagmi';
 import {
   Swap,
   SwapAmountInput,
@@ -47,8 +47,8 @@ function App() {
 
   return (
     <>
-    <div class="image-container"><img src="https://whitemonsterbase.com/wp-content/uploads/2024/06/logo-dark-4.png"></img></div>
-       <div class="container">
+    <div className="image-container"><img src="https://whitemonsterbase.com/wp-content/uploads/2024/06/logo-dark-4.png"></img></div>
+       <div className="container">
         <p>BUY $WMSTER</p>
         <p>Connect your wallet</p>
         {connectors.map((connector) => (
@@ -61,12 +61,12 @@ function App() {
             {connector.name}
           </button>
         ))}
-        <div class="powered">Powered by Coinbase Smart Wallet</div>
+        <div className="powered">Powered by Coinbase Smart Wallet</div>
         <div>{error?.message}</div>
       </div>
 
       {account.address && (
-        <div class="center">
+        <div className="center">
           <Swap
             address={account.address!}
             experimental={{ useAggregator: false }}
