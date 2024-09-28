@@ -1,10 +1,7 @@
 html {
   height: 100%;
   scroll-behavior: smooth;
-}
-
-html .font-robotoMono {
-  font-family: var(--font-roboto-mono);
+  font-family: "Sofia", sans-serif;
 }
 
 .btn-1 {
@@ -18,11 +15,12 @@ html .font-robotoMono {
     display: inline-block;
     font-size: 15px;
     font-weight: 700;
-    border-radius: .75rem
+    border-radius: .75rem;
+    font-family: "Coda", sans-serif;
   }
 
 .container {
-    font-family: arial;
+    font-family: "Coda", sans-serif;
     font-size: 18px;
     text-align: center;
     justify-content: center; /* Horizontally centers the image */
@@ -33,6 +31,7 @@ html .font-robotoMono {
     font-size: 10px; /* Font size set to 10px */
     color: #a9a9a9; /* Text color set to red */
     text-align: center;
+    font-family: "Coda", sans-serif;
     padding-top: 20px;
 }
 
