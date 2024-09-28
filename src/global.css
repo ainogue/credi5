@@ -39,10 +39,26 @@ html .font-robotoMono {
 .center {
     border: 0px solid;
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding-bottom: 80px;
+  }
+
+@media only screen and (max-width: 980px) {
+  .center {
+    top: 95%;
+  }
+    }
+
+.bg-ock-default {
+    background-color: #f9fafb00!important;
+}
+
+@media only screen and (max-width: 980px) {
+  .w-\[500px\] {
+    width: 400px!important;
+}
   }
   
 p {

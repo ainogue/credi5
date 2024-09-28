@@ -37,7 +37,7 @@ const basedToken: Token = {
   symbol: 'WMSTER',
   decimals: 9,
   image:
-    'https://d3r81g40ycuhqg.cloudfront.net/wallet/wais/47/bc/47bc3593c2dec7c846b66b7ba5f6fa6bd69ec34f8ebb931f2a43072e5aaac7a8-YmUwNmRjZDUtMjczYy00NDFiLWJhZDUtMzgwNjFmYWM0Njkx',
+    '/wmsteric.png',
   chainId: 8453,
 };
 
