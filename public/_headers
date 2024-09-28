@@ -1,6 +1,6 @@
 https://buy.whitemonsterbase.com/*
   X-Robots-Tag: noindex, nosnippet
-  Cross-Origin-Opener-Policy: same-origin-allow-popups
+  Cross-Origin-Opener-Policy: unsafe-none
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
@@ -9,7 +9,7 @@ https://buy.whitemonsterbase.com/*
 
 https://credi5.pages.dev/*
   X-Robots-Tag: noindex, nosnippet
-  Cross-Origin-Opener-Policy: same-origin-allow-popups
+  Cross-Origin-Opener-Policy: unsafe-none
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
