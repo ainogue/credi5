@@ -6,6 +6,7 @@ https://buy.whitemonsterbase.com/*
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
   Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 https://credi5.pages.dev/*
   X-Robots-Tag: noindex, nosnippet
@@ -15,6 +16,7 @@ https://credi5.pages.dev/*
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
   Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 /dist/*
   X-Robots-Tag: noindex, nosnippet
@@ -24,3 +26,4 @@ https://credi5.pages.dev/*
   Referrer-Policy: no-referrer
   Permissions-Policy: document-domain=()
   Content-Security-Policy: script-src 'self'; frame-ancestors 'none';
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
