@@ -61,7 +61,6 @@ function App() {
             {connector.name}
           </button>
         ))}
-        <div className="powered">Powered by Coinbase Smart Wallet</div>
       </div>
 
       {account.address && (
