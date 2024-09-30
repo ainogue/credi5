@@ -5,17 +5,17 @@ html {
 }
 
 .btn-1 {
-    background-color: #4f46e5; /* blue */
+    background-color: #34BEDB; /* blue */
     border: none;
     color: white;
     padding: 12px 25px;
-    margin: 2px 2px;
+    margin: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
-    border-radius: .75rem;
+    border-radius: 100px;
     font-family: "Coda", sans-serif;
     cursor: url('/mouse-3.png'), auto;
   }
