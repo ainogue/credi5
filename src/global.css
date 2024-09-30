@@ -11,10 +11,10 @@ html {
     padding: 12px 25px;
     margin: 5px 5px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: uppercase;
     display: inline-block;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     border-radius: 100px;
     font-family: "Coda", sans-serif;
     cursor: url('/mouse-3.png'), auto;
