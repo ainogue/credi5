@@ -61,6 +61,7 @@ function App() {
             {connector.name}
           </button>
         ))}
+        <div className="powered"><a href="https://whitemonsterbase.com">whitemonsterbase.com</a> ☍</div>
       </div>
 
       {account.address && (

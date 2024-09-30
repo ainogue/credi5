@@ -17,6 +17,7 @@ html {
     font-weight: 700;
     border-radius: .75rem;
     font-family: "Coda", sans-serif;
+    cursor: url('/mouse-3.png'), auto;
   }
 
 .container {
@@ -28,12 +29,16 @@ html {
   }
 
 .powered {
-    font-size: 10px; /* Font size set to 10px */
+    font-size: 12px; /* Font size set to 10px */
     color: #a9a9a9; /* Text color set to red */
     text-align: center;
     font-family: "Coda", sans-serif;
     padding-top: 20px;
 }
+
+body a {
+  cursor: url('/mouse-3.png'), auto;
+  }
 
 .center {
     border: 0px solid;

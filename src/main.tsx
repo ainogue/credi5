@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <OnchainKitProvider apiKey={'pNAsVHLEOHaQ86NaQaCGaUuZqVoZjV20'} chain={base}>
+        <OnchainKitProvider apiKey={import.meta.env.VITE_API_KEY} chain={base}>
           <App />
         </OnchainKitProvider>
       </QueryClientProvider>
