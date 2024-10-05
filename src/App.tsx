@@ -47,7 +47,7 @@ function App() {
 
   return (
     <>
-    <div className="image-container"><img src="https://whitemonsterbase.com/wp-content/uploads/2024/06/logo-dark-4.png"></img></div>
+    <div className="image-container"><a href="https://whitemonsterbase.com"><img src="https://whitemonsterbase.com/wp-content/uploads/2024/06/logo-dark-4.png"></img></a></div>
        <div className="container">
         <p>BUY $WMSTER</p>
         <p>Connect your wallet</p>
